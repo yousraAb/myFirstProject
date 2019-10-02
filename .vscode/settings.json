@@ -1,0 +1,9 @@
+{
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "editor.minimap.enabled": false,
+    "outline.problems.colors": false,
+    "outline.problems.enabled": false,
+    "problems.decorations.enabled": false,
+    "outline.problems.badges": false
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>84E7860E-5F60-45E7-BEDE-E9F0FDC7E86A</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Visuel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Editing-Mode" transform="translate(-171.000000, -137.000000)">
+            <g id="column-icon/rond-blanc/eye-circled" transform="translate(172.000000, 138.000000)">
+                <g id="polygon">
+                    <circle id="Oval-Copy-5" stroke="#49C4A8" stroke-width="1.125" fill="#FFFFFF" cx="16" cy="16" r="16"></circle>
+                    <g id="Eye" transform="translate(8.000000, 11.000000)" fill="#49C4A8">
+                        <path d="M8.5,10 C3.80557963,10 0,7.76142375 0,5 C0,2.23857625 3.80557963,0 8.5,0 C13.1944204,0 17,2.23857625 17,5 C17,7.76142375 13.1944204,10 8.5,10 Z M8.5,8.125 C10.1765787,8.125 11.5357143,6.72588984 11.5357143,5 C11.5357143,3.27411016 10.1765787,1.875 8.5,1.875 C6.8234213,1.875 5.46428571,3.27411016 5.46428571,5 C5.46428571,6.72588984 6.8234213,8.125 8.5,8.125 Z" id="Combined-Shape"></path>
+                        <ellipse id="Oval" cx="8.5" cy="5" rx="1.82142857" ry="1.875"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

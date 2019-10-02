@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="11px" viewBox="0 0 17 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon/arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12.4370786,1.78674155 L14.4752889,5.45551999 L16.5873214,9.25717853 C16.721428,9.4985704 16.6344561,9.80297205 16.3930642,9.93707864 C16.3187852,9.97834475 16.2352149,10 16.1502428,10 L7.84975723,10 C7.57361486,10 7.34975723,9.77614237 7.34975723,9.5 C7.34975723,9.41502788 7.37141248,9.33145754 7.41267859,9.25717853 L11.5629214,1.78674155 C11.697028,1.54534968 12.0014296,1.45837778 12.2428215,1.59248438 C12.3244415,1.63782884 12.3917342,1.70512152 12.4370786,1.78674155 Z" id="Triangle" fill="#FFFFFF" transform="translate(12.000000, 5.500000) rotate(90.000000) translate(-12.000000, -5.500000) "></path>
+        <path d="M9.40035569,5.5 L2.5,5.5" id="Path-7" stroke="#FFFFFF" stroke-width="3" fill="#D8D8D8" stroke-linecap="square"></path>
+    </g>
+</svg>
