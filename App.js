@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, {useState} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -17,14 +17,20 @@ import {ChatMode} from './Component/ChatMode';
 import {EditInfo} from './Component/EditInfo';
 import {MyWod} from './Component/MyWod';
 import {ChartModal} from './Component/ChartModal';
-import {Parent} from './Component/TestFunction';
+ import {ParentFunction} from './Component/ParentFunction';
+// import {ChildFunction} from './Component/ParentFunction';
+import {WodDescription} from './Component/WodDescription';
 
 const App = () => {
-  return (
-    <SafeAreaView style={{flex:1}}>
-      <ScreenTitle title={'home'} />
-      <ChatMode />
 
+  return (
+     <SafeAreaView style={{flex:1}}>
+      <ScreenTitle title={'home'} />
+      <WodDescription />
+       {/* <ParentFunction /> */}
+      {/* <ChatMode from={'chat'}/>
+      <ChatMode from={'chat'}/>
+      <ChatMode from={'prog'}/> */}
       {/* <ChartModal /> */}
       {/* <MyWod /> */}
       {/* <EditInfo /> */}
@@ -35,10 +41,10 @@ const App = () => {
       {/* <MyProg /> */}
     </SafeAreaView>
   );
-};
+}
 
-const styles = StyleSheet.create({
+// const styles = StyleSheet.create({
 
-});
+// });
 
 export default App;

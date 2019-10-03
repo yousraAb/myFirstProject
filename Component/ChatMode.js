@@ -1,30 +1,68 @@
-
 import React , {useState} from 'react';
 import {
   StyleSheet,
-  ButtonGroup,
   TextInput,
   View,
-  TouchableOpacity,
   Text,
   Button,Image,
 } from 'react-native';
 
-
-const ChatMode = () => {
+const ChatMode = (props) => {
+//    const from = props;
+let  [day] = useState(2);
+   let year = new  Date().getFullYear();
+   let date = new  Date().getDate();
+   let heur = new  Date().getHours();
+   let min = new  Date().getMinutes();
+   let month = new  Date().getMonth();
    
   return (
          <View style={styles.container}>
-             <View style={styles.line}></View>
-             <View style={styles.rectangl}>
-                 <Image style={styles.profilpic}
-                 source={require('./images/coach.jpeg')} 
-              />
-                <View style={styles.txt}>
-                    <Text style={styles.nom}>well </Text>
-                    <Text style={styles.prenom}>migan</Text>
-                </View>
+         
+             {props.from === "prog" ?
+             <View>
+                 
+                <View style={styles.line}></View>
+                <View style={styles.rectangl}>
+                    <Image style={styles.profilpic}
+                    source={require('./images/coach.jpeg')} 
+                 />
+                   <View style={styles.txt}>
+                       <Text style={styles.nom}>well</Text>
+                       <Text style={styles.prenom}>migan</Text>
+                   </View>
+               </View>
             </View>
+            :
+            <View>
+                <View style={styles.line}></View>
+                <View style={styles.rectangl}>
+                    <Image style={styles.profilpic}
+                    source={require('./images/coach.jpeg')} 
+                 />
+                 <View style={{flexDirection:'column'}}>
+                 <View style={{flexDirection:'row'}}>
+                   <View style={styles.txt2}>
+                       <Text style={styles.nom}>well </Text>
+                       <Text style={styles.prenom}>migan</Text>
+                   </View>
+                   <View style={styles.date}>
+                       {day == date ?
+                    <Text style={styles.datetxt}>{heur}:{min}</Text>
+                    : day < date && day > date -2 ?
+                    <Text style={styles.datetxt}>yesterday</Text>
+                    :
+                    <Text style={styles.datetxt}>{date}/{month+1}</Text>
+                       }
+                    </View>
+                   </View>
+                   <View style={styles.msg}>
+                      <Text >Merci tout se passe bien on se...</Text>
+                   </View>
+                   </View>
+                </View>           
+            </View>      
+             }      
          </View>
   );
 };
@@ -39,6 +77,26 @@ const styles = StyleSheet.create({
         borderBottomWidth:0.2,
         borderBottomColor:'#979797',
         width:330,marginLeft:26,height:59, 
+    },
+    txt2:{
+        flexDirection: "row",
+        flexWrap: "nowrap",justifyContent: 'center',
+        width:99,height:18,fontSize:15,
+        marginLeft:6,marginTop:10, 
+    },
+    datetxt:{
+        color:'gray',
+    },
+    msg :{
+        fontSize:15,marginTop:6,
+         marginLeft:20,
+        width:260,
+
+    },
+    date:{
+     
+        marginLeft:130,marginTop:10,
+        height:18,
     },
     txt:{
         flexDirection: "row",

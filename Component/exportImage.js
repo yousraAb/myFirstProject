@@ -12,3 +12,7 @@ import Pen from './images/pen.svg';
 export {Pen} 
 import Fleche from './images/fleche.svg';
 export {Fleche}
+import Bin from './images/Bin.svg';
+export {Bin}
+import Edit from './images/Edit.svg';
+export {Edit}
