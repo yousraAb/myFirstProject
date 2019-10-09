@@ -16,3 +16,9 @@ import Bin from './images/Bin.svg';
 export {Bin}
 import Edit from './images/Edit.svg';
 export {Edit}
+import Add from './images/add.svg';
+export {Add}
+import Send from './images/send.svg';
+export {Send}
+import Cross from './images/cross.svg';
+export {Cross}
