@@ -21,9 +21,6 @@ const ChildImag = (props) => {
 };
 
 const styles = StyleSheet.create({
- 
- 
-
 });
 
 export {ChildImag};

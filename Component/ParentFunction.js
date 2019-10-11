@@ -25,7 +25,6 @@ let text = props;
            </TouchableOpacity>
         </View>
     )
-
 };
 
 function ParentFunction (){
@@ -33,7 +32,6 @@ function ParentFunction (){
     function start (){
         setActive(!active)
     }
-
     return (
         <View>
             <ChildFunction text={'this is child View'}

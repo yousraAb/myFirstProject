@@ -1,1 +1,1 @@
-// export * from 'components/core/search/inputSearch';
+ export * from 'components/core/search/inputSearch';

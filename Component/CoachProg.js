@@ -1,4 +1,4 @@
-import React , {useState} from 'react';
+import React, {useState} from 'react';
 import {
   StyleSheet,
   ButtonGroup,
@@ -11,22 +11,20 @@ import {
 } from 'react-native';
 import {Arrow} from './exportImage';
 
-const CoachProg = () => {
+const CoachProg = (props) => {
 
   return (
       <View style={styles.container}>
           <View style={styles.desc}>
-            <Text style={styles.description} numberOfLines={2}>Win Your Success 
-           
+            <Text style={styles.description} 
+            numberOfLines={2}>{props.title}
             </Text>
           </View>
-        
           <Image style={styles.profil}
-              source={require('./images/coach.jpeg')} 
+              source={props.img} 
               width={54} height={54} ></Image>
-      
           <View style={styles.img}>
-          <TouchableOpacity >
+          <TouchableOpacity>
             <Arrow width={20} height={30} />
         </TouchableOpacity>
         </View>

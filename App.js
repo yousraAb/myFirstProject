@@ -23,14 +23,27 @@ import {UseEffectTest} from './ComposantTest/UseEffectTest';
 import {TouchButton} from './Component/TouchButton';
 import {TouchableBtn} from './Component/TouchableBtn';
 import {ChatInput} from './Component/ChatInput';
+import {ProfileProg} from './Component/ProfileProg';
 const App = () => {
+//   let info = [{nom:'First', prenom:'last', photo:require('./Component/images/coach.jpeg')},
+           
+//     {nom:'sarah', prenom:'Magida', 
+//             photo:require('./Component/images/coach.jpeg')
+//     },
+//     {nom:'sarah', prenom:'Magida', 
+//             photo:require('./Component/images/coach.jpeg')
+//     },
+// ];
 
   return (
-    <View style={{flex:1}}>
+    <SafeAreaView style={{flex:1,}}>
+       <ScreenTitle title={'home'} /> 
+      <ProfileProg />
+    
       {/* <SafeAreaView style={{flex:1,}}>
        <ScreenTitle title={'home'} /> */}
-    
-      <ChatInput />
+    {/* <TouchableBtn /> */}
+      {/* <ChatInput /> */}
    
       {/* <TouchableBtn /> */}
       {/* <WodDescription /> */}
@@ -40,14 +53,14 @@ const App = () => {
       <ChatMode from={'prog'}/> */}
       {/* <ChartModal /> */}
       {/* <MyWod /> */}
-      {/* <EditInfo /> */}
+      {/* <EditInfo />  */}
       {/* <IconButton /> */}
       {/* <CoachProg/> */}
       {/* <ButtonGrp /> */}
       {/* <OnePicker /> */}
       {/* <MyProg /> */}
     {/* </SafeAreaView> */}
-    </View>
+    </SafeAreaView>
   );
 }
 

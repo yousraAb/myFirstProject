@@ -24,7 +24,9 @@ const OnePicker = (props) => {
   const [dimensions, setDimensions] = useState({width:0, height:0, x:0, y:0});
   // const [one, setOne] = useState({width:0, height:0, x:0, y:0});
   const [items, setItems] = useState([]);
- 
+  useEffect(() => {
+    console.log(items);
+  }, [items])
 
 
   
@@ -37,9 +39,7 @@ const OnePicker = (props) => {
     {title: 'BBC',value: 'BBCR'}
   ]
 
-    useEffect(() => {
-      console.log(items);
-    }, [items])
+   
   return (
      Platform.OS === 'android' 
         ? //if true

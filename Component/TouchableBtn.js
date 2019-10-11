@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 
 const TouchableBtn = () => {
-    let [active, setActive] = useState(true);
+    let [active, setActive] = useState(false);
     function start (){
         setActive(!active)
     }
@@ -18,7 +18,7 @@ const TouchableBtn = () => {
         width:'100%',height:200,flexDirection:'row'}}>
           <TouchableOpacity style={styles.buttonShow}
            onLongPress={start} >
-            <Text style={styles.buttonText}>Kettelbell ACDI</Text>
+            <Text style={styles.buttonText}>Kettelbell ASDI ACDI</Text>
           </TouchableOpacity>
           <View 
           style={ active == true ?
